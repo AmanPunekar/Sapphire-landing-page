@@ -332,4 +332,23 @@
   align-items: center;
 }
 
-/* ---Financial css starts here ---  */
+/* ---Module and Blog css starts here ---  */
+
+
+.moduleHeading{
+  color: #064D51;
+  font-family: "Inter";
+  font-size: 48px;
+  font-weight: 500;margin-bottom: 30px;
+}
+.mbcontainer{
+  width: 1440px;
+  margin: 40px auto;
+  height: 604px;
+  display: flex;
+    gap: 180px;
+}
+.mcontainer{
+  max-width: 628px;
+    flex-direction: column;
+}

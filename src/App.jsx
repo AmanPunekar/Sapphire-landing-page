@@ -6,6 +6,7 @@ import Pricing from "./components/pricing";
 import InvestmentCalc from "./components/investment-calc";
 import Gateway from "./components/gateway";
 import Financial from "./components/financial";
+import ModuleAndBlog from "./components/moduleAndBlogs";
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <InvestmentCalc/>
       <Gateway/>
       <Financial/>
+      <ModuleAndBlog/>
     </>
   );
 };
