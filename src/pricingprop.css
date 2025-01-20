@@ -1,0 +1,79 @@
+.card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.Vprice {
+  padding: 12px 30px;
+  color: #152f46;
+  font-size: 16px;
+  font-family: inter;
+}
+
+.info-card {
+  border: 0.5px solid #064d51;
+  height: 339px;
+  width: 320px;
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0px -2px 13.3px 1px rgba(0, 0, 0, 25%);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+}
+
+.icon-container {
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+  position: relative;
+  bottom: 20px;
+}
+
+.price {
+  font-weight: 500;
+  color: #333333;
+  position: relative;
+  top: 18px;
+}
+
+.title {
+  font-weight: 400;
+  color: #125f46;
+  font-size: 16px;
+}
+
+.description {
+  font-size: 17px;
+  color: #000;
+  margin-top: 8px;
+}
+
+.link-container {
+  text-align: right;
+}
+
+.link {
+  font-size: 9.89px;
+  font-weight: 500;
+  color: #2f7fff;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+.cardContainerTwo {
+  position: relative;
+  bottom: 50px;
+}
