@@ -5,6 +5,7 @@ import SignUp from "./components/signup";
 import Pricing from "./components/pricing";
 import InvestmentCalc from "./components/investment-calc";
 import Gateway from "./components/gateway";
+import Financial from "./components/financial";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Pricing/>
       <InvestmentCalc/>
       <Gateway/>
+      <Financial/>
     </>
   );
 };
