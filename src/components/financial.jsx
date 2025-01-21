@@ -149,6 +149,8 @@ const Financial = () => {
                 fontWeight: "400",
                 backgroundColor: "#152F46",
                 color: "#fff",
+                position: "relative",
+                bottom: "26px",
               }}
             >
               Beginner
@@ -205,6 +207,8 @@ const Financial = () => {
                 fontWeight: "400",
                 backgroundColor: "#152F46",
                 color: "#fff",
+                position: "relative",
+                bottom: "26px",
               }}
             >
               Beginner
