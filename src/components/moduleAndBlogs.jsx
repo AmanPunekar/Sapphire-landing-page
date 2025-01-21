@@ -335,7 +335,6 @@ const ModuleAndBlog = () => {
           </p>
         </div>
       </div>
-      ;
     </>
   );
 };

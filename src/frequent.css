@@ -1,0 +1,40 @@
+.faq-container {
+  max-width: 1196px;
+  height: 406px;
+  margin: 0px auto;
+  padding: 20px;
+  font-family: "lexend";
+  cursor: pointer;
+}
+
+.faq-item {
+  border-bottom: 1px solid #ccc;
+  width: 1196px;
+}
+
+.faq-question {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  font-size: 28px;
+  height: 106px;
+}
+
+.faq-answer {
+  padding: 0px 18px 18px 18px;
+  font-size: 24px;
+  color: #000;
+  font-weight: 300;
+}
+
+.faq-icon {
+  transition: transform 0.2s;
+  font-weight: bold;
+  margin: 0;
+  text-align: right;
+}
+
+.faq-icon.rotate {
+  transform: rotate(-45deg);
+}
