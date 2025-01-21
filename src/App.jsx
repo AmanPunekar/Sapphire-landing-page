@@ -8,6 +8,7 @@ import Gateway from "./components/gateway";
 import Financial from "./components/financial";
 import ModuleAndBlog from "./components/moduleAndBlogs";
 import FrequentlyAsk from "./components/frequentlyAsk";
+import Support from "./components/support";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
       <Financial/>
       <ModuleAndBlog/>
       <FrequentlyAsk/>
+      <Support/>
     </>
   );
 };
