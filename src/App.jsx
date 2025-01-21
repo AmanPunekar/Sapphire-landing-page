@@ -9,6 +9,7 @@ import Financial from "./components/financial";
 import ModuleAndBlog from "./components/moduleAndBlogs";
 import FrequentlyAsk from "./components/frequentlyAsk";
 import Support from "./components/support";
+import Footer from "./components/footer";
 
 const App = () => {
   return (
@@ -22,6 +23,7 @@ const App = () => {
       <ModuleAndBlog/>
       <FrequentlyAsk/>
       <Support/>
+      <Footer/>
     </>
   );
 };
